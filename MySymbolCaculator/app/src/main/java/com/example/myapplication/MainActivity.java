@@ -26,7 +26,7 @@ public class MainActivity extends AppCompatActivity {
     }
     public void xulycong(View v){
         String sa= edita.getText().toString();
-        String sb= edita.getText().toString();
+        String sb= editb.getText().toString();
         int a = Integer.parseInt(sa);
         int b=Integer.parseInt(sb);
         int tong=a+b;
@@ -35,7 +35,7 @@ public class MainActivity extends AppCompatActivity {
     }
     public void xulytru(View v){
         String sa= edita.getText().toString();
-        String sb= edita.getText().toString();
+        String sb= editb.getText().toString();
         int a = Integer.parseInt(sa);
         int b=Integer.parseInt(sb);
         int tru=a-b;
@@ -44,7 +44,7 @@ public class MainActivity extends AppCompatActivity {
     }
     public void xulynhan(View v){
         String sa= edita.getText().toString();
-        String sb= edita.getText().toString();
+        String sb= editb.getText().toString();
         int a = Integer.parseInt(sa);
         int b=Integer.parseInt(sb);
         int nhan=a*b;
@@ -53,7 +53,7 @@ public class MainActivity extends AppCompatActivity {
     }
     public void xulychia(View v){
         String sa= edita.getText().toString();
-        String sb= edita.getText().toString();
+        String sb= editb.getText().toString();
         int a = Integer.parseInt(sa);
         int b=Integer.parseInt(sb);
         int chia=a/b;
