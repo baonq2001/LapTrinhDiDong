@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#8cff66"
+    tools:context=".MainActivity">
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content" />
+
+    <TextView
+        android:id="@+id/tvcanhday"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="Cạnh Đáy"
+        android:textSize="20dp" />
+    <EditText
+        android:id="@+id/edtText_canhday"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPersonName"
+        />
+
+    <TextView
+        android:id="@+id/tvchieucao"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="Chiều Cao"
+        android:textSize="20dp" />
+
+    <EditText
+        android:id="@+id/edtText_chieuCao"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPersonName" />
+
+    <TextView
+        android:id="@+id/tvcanhA"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="Cạnh A"
+        android:textSize="20dp" />
+
+    <EditText
+        android:id="@+id/edtText_canhA"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPersonName" />
+
+    <TextView
+        android:id="@+id/tvcanhB"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="Cạnh B"
+        android:textSize="20dp" />
+
+    <EditText
+        android:id="@+id/edtTextcanhB"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPersonName" />
+
+    <Button
+        android:id="@+id/btnChuVi"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="xulyChuVi"
+        android:text="Chu Vi" />
+
+    <Button
+        android:id="@+id/btnDienTich"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="xulyDienTich"
+        android:text="Diện Tích" />
+
+    <TextView
+        android:id="@+id/tvKetQua"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="Kết Quả" />
+</LinearLayout>
